@@ -50,7 +50,7 @@ CGLIB) -->
     <build>
         <resources>
             <resource>
-                <directory>${project.build.sourceDirectory}</directory>
+                <directory>src/main/resources</directory>
                 <filtering>true</filtering>
                 <excludes>
                     <exclude>**/*.java</exclude>
@@ -59,7 +59,7 @@ CGLIB) -->
         </resources>
         <testResources>
             <testResource>
-                <directory>${project.build.testSourceDirectory}</directory>
+                <directory>src/test/resources</directory>
                 <!--filtering,配置maven是否替换这些文件中的占位符-->
                 <filtering>true</filtering>
                 <excludes>
