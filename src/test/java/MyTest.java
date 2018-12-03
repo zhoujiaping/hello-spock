@@ -1,5 +1,6 @@
 import org.junit.Test;
 import com.alibaba.fastjson.JSONObject;
+@org.junit.Ignore
 public class MyTest{
     @Test
     public void testFirst(){
