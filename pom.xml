@@ -97,6 +97,7 @@ CGLIB) -->
                 <version>2.18.1</version>
                 <configuration>
                     <useFile>false</useFile>
+                    <skip>true</skip>
                     <includes>
                         <include>**/*Spec.java</include>
                         <include>**/*Spec.groovy</include>
